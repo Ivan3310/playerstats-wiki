@@ -56,6 +56,7 @@ curl "http://127.0.0.1:1339/api/v1/player?name=Steve"
 ```
 Example: "http://127.0.0.1:1339/api/v1/player?name=RaitXEVIL"
 We getting this:
+```bash
 {
   "player": {
     "uuid": "be36e79d-6828-3847-8ed3-62216391e9ec",
@@ -192,12 +193,13 @@ We getting this:
     }
   ]
 }
-
+```
 ```bash
 curl -H "X-API-Key: your-key" "http://127.0.0.1:1339/api/v1/compare?players=Steve,Alex,Notch"
 ```
 Example: "http://127.0.0.1:1339/api/v1/compare?players=bot1,RaitXEVIL"
 We getting this:
+```bash
 {
   "count": 2,
   "players": [
@@ -374,3 +376,4 @@ We getting this:
     }
   ]
 }
+```
